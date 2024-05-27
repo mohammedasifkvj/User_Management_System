@@ -1,0 +1,22 @@
+/*add font site addres as @import url('link')*/
+body{
+    background-image: url('/BG-IMAGE.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    @media (min-width:440px) {
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+}
+    
+    .center-div{
+        padding-top: 5%;
+    }
+    .btn.btn-success{
+        padding: 0.5em 0.5em;
+    }
+    
+    #login.title{
+        font-size: 0.8em;
+    }
